@@ -7,7 +7,6 @@ placeholders in the curly brackets should be replaced with your own macros.
 <script>
   var stylightParameters = {
     'propertyId': '{{ property_ID }}',  // Your Stylight property id. Example: 'test12345'
-    'skus': '{{ skus }}',               // Product ID/SKUs separated by '|'. Example: '1234|5678' 
     'oi': '{{ order_id }}',             // Order ID in your system. Example: 'abcde'
     'ta': '{{ total_amount }}',         // Total amount of the basket. Example: 10.5
     'ic': '{{ item_count }}',           // Number of items in the basket. Example: 2
